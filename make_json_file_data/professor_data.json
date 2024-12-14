@@ -1,0 +1,674 @@
+{
+    "프라임관": {
+        "컴퓨터 소프트웨어공학과": [
+            {"name": "테스트","email": "chlguswls001144@gmail.com"},
+            {"name": "이상원","email": "sangwonlee@wku.ac.kr"},
+            {"name": "이형효","email": "sangwonlee@wku.ac.kr"},
+            {"name": "정석태","email": "stjoung@wku.ac.kr"},
+            {"name": "정성태","email": "stjung@wku.ac.kr"},
+            {"name": "정영지","email": "yjchung@wku.ac.kr"},
+            {"name": "최동운","email": "cdo209@wku.ac.kr"},
+            {"name": "강선경","email": "doctor10@wku.ac.kr"},
+            {"name": "고성현","email": "saintgo7@wku.ac.kr"},
+            {"name": "복경수","email": "ksbok@wku.ac.kr"},
+            {"name": "이완범","email": "lwbwon@wku.ac.kr"},
+            {"name": "오강한","email": "khoh888@wku.ac.kr"},
+            {"name": "이종민","email": "square55@wku.ac.kr"},
+            {"name": "임기현","email": "ghlim71@wku.ac.kr"},
+            {"name": "김명환","email": "dolsoiq@wonkwang.ac.kr"},
+            {"name": "김용운","email": "zerokyw@wku.ac.kr"},
+            {"name": "이석준","email": "gbox3d@gmail.com"}
+
+        ],
+        "게임 콘텐츠 공학과": [
+            {"name": "원도연","email": "dywon21@hanmail.net"},
+            {"name": "이현창","email": "hclglory@wku.ac.kr"},
+            {"name": "이용환","email": "hwany1458@wku.ac.kr"},
+            {"name": "정찬성","email": "placomp@wku.ac.kr"}
+        ],
+       "식품영향학과": [
+            {"name": "김혜숙","email": "hskim81@wku.ac.kr"},
+            {"name": "김회경","email": "hoikyung@wku.ac.kr"},
+            {"name": "손정민","email": "ccha@wku.ac.kr"},
+            {"name": "최일숙","email": "choiis@wku.ac.kr"},
+            {"name": "이보영","email": "blue84@wku.ac.kr"}
+        ],
+       "화학공학과": [
+            {"name": "주용완","email": "ywju1978@wku.ac.kr"},
+            {"name": "곽소정","email": "plus38317@wku.ac.kr"},
+            {"name": "김보미","email": "123456@wku.ac.kr"},
+            {"name": "김태희","email": "taehee928@wku.ac.kr"},
+            {"name": "류지현","email": "jhryu4816@wku.ac.kr"},
+            {"name": "심재오","email": "joshim85@wku.ac.kr"},
+            {"name": "전인엽","email": "iyjeon79@wku.ac.kr"},
+            {"name": "조충연","email": "cncho37@wku.ac.kr"},
+            {"name": "배서윤","email": "sybae8693@wku.ac.kr"},
+            {"name": "이동훈","email": "merits928@wku.ac.kr"}
+        ]
+    },
+    "창의공과대학": {
+        "전기공학과": [
+            {"name": "김덕규","email": "dkkim17@wku.ac.kr"},
+            {"name": "김재혁","email": "jaehkim@wku.ac.kr"},
+            {"name": "박형준","email": "pahumu@wonkwang.ac.kr"},
+            {"name": "이상설","email": "slee@wku.ac.kr"},
+            {"name": "오훈","email": "csjin76@wku.ac.kr"},
+            {"name": "진창성","email": "wspark@wonkwang.ac.kr"},
+            {"name": "전민창","email": "jmc0227@wku.ac.kr"}
+        ],
+       "전자공학과": [
+            {"name": "오인권","email": "kogenius@wku.ac.kr"},
+            {"name": "문성룡","email": "srmoon@wku.ac.kr"},
+            {"name": "조경주","email": "kjcho@wku.ac.kr"},
+            {"name": "이기원","email": "kiwon2lee@wku.ac.kr"},
+            {"name": "임순자","email": "lsj633@wku.ac.kr"},
+            {"name": "조영식","email": "ycho@wku.ac.kr"}
+        ],
+       "정보통신학과": [
+            {"name": "염성관","email": "skyoum00@wku.ac.kr"},
+            {"name": "김용갑","email": "ykim@wku.ac.kr"},
+            {"name": "박광진","email": "kjpark@wku.ac.kr"},
+            {"name": "최세영","email": "kjpark@wku.ac.kr"},
+            {"name": "김범수","email": "uckbs@hanmail.net"},
+            {"name": "이강재","email": "leekangjea@wku.ac.kr"}
+        ],
+        "건축학과": [
+            {"name": "박연정","email": "lotus21@wku.ac.kr"},
+            {"name": "박기우","email": "kpark843@wku.ac.kr"},
+            {"name": "이성균","email": "skl3724@naver.com"},
+            {"name": "안선호","email": "art38317@daum.net"},
+            {"name": "강미현","email": "cocoon1981@naver.com"},
+            {"name": "고인호","email": "dissja@naver.com"},
+            {"name": "김승기","email": "normarchitects@hanmail.net"},
+            {"name": "김충호","email": "ch_wondoshi@naver.com"},
+            {"name": "박정민","email": "mindongarch@naver.com"},
+            {"name": "오숙경","email": "osk0921@nate.com"},
+            {"name": "오창원","email": "ohchwon@naver.com"},
+            {"name": "이동숙","email": "dongsuk@wku.ac.kr"},
+            {"name": "이석원"},
+            {"name": "장일문","email": "kmandan@naver.com"},
+            {"name": "정훈석","email": "jhsyyy89@naver.com"},
+            {"name": "한재형","email": "kyeolarchitects@naver.com"},
+            {"name": "현철우","email": "spacesection@gmail.com"},
+            {"name": "황경호","email": "hou@houarchi.com"}
+        ],
+        "건축공학과": [
+            {"name": "노준석","email": "junseok77@wku.ac.kr"},
+            {"name": "김재수","email": "soundpro@wku.ac.kr"},
+            {"name": "최세진","email": "csj2378@wku.ac.kr"},
+            {"name": "임우영","email": "wylim97@wku.ac.kr"},
+            {"name": "김평석","email": "2279406@hanmail.net"},
+            {"name": "박형철","email": "cruise072@naver.com"},
+            {"name": "이승욱","email": "pariman@naver.com"}
+        ],
+        "도시공학과": [
+            {"name": "이경찬","email": "kclee0@naver.com"},
+            {"name": "최성진","email": "treejin11@wku.ac.kr"},
+            {"name": "이창섭","email": "leechsub@gmail.com"},
+            {"name": "박경섭","email": "pksud68@gmail.com"},
+            {"name": "강인애","email": "kia0726@hanmail.net"}
+        ],
+       "건설환경공학과": [
+            {"name": "김경석","email": "kim2018@wku.ac.kr"},
+            {"name": "김선용","email": "sunyoungkim@wonkwang.ac.kr"},
+            {"name": "남궁문","email": "ngmoon@wonkwang.ac.kr"},
+            {"name": "박주남","email": "jjoonam@wku.ac.kr"},
+            {"name": "이진선","email": ""},
+            {"name": "정용","email": "yong_jung@wku.ac.kr"},
+            {"name": "최혁순","email": "choihs@wku.ac.kr"},
+            {"name": "김권식","email": "gskim1531@wku.ac,kr"},
+            {"name": "권희태","email": "iweels@nate.com"}
+        ]
+    },
+    "한의과대학": {
+        "한의예과": [
+            {"name": "임정태","email": ""},
+            {"name": "강대길","email": ""},
+            {"name": "강연석","email": ""},
+            {"name": "권강범","email": ""},
+            {"name": "김성철","email": ""},
+            {"name": "김재효","email": ""},
+            {"name": "류도곤","email": ""},
+            {"name": "문연자","email": ""},
+            {"name": "박성주","email": ""},
+            {"name": "엄동명","email": ""},
+            {"name": "이금산","email": ""},
+            {"name": "전병훈","email": ""},
+            {"name": "정명수","email": ""},
+            {"name": "정헌영","email": ""},
+            {"name": "권오상","email": ""},
+            {"name": "배기상","email": ""},
+            {"name": "정현종","email": ""},
+            {"name": "배준상","email": ""},
+            {"name": "이원융","email": ""},
+            {"name": "김영수","email": ""}
+        ],
+        "한의학과": [
+            {"name": "권영달","email": ""},
+            {"name": "김강산","email": ""},
+            {"name": "김동웅","email": ""},
+            {"name": "김송백","email": ""},
+            {"name": "박은정","email": ""},
+            {"name": "백동기","email": ""},
+            {"name": "송봉근","email": ""},
+            {"name": "신선호","email": ""},
+            {"name": "신용진","email": ""},
+            {"name": "염승룡","email": ""},
+            {"name": "원진희","email": ""},
+            {"name": "유영수","email": ""},
+            {"name": "윤종민","email": ""},
+            {"name": "이상관","email": ""},
+            {"name": "이정한","email": ""},
+            {"name": "주종천","email": ""},
+            {"name": "최창민","email": ""},
+            {"name": "홍석훈","email": ""},
+            {"name": "김철현","email": ""},
+            {"name": "하원배","email": ""}
+        ]
+    },
+    "의과대학": {
+        "작업치료학과": [
+            {"name": "홍덕기","email": ""},
+            {"name": "우희순","email": ""},
+            {"name": "최유임","email": ""},
+            {"name": "민경철","email": ""},
+            {"name": "우지희","email": ""},
+            {"name": "김영란","email": ""},
+            {"name": "손영수","email": ""},
+            {"name": "유영미","email": ""},
+            {"name": "이건호","email": ""}
+        ],
+        "응급구조학과": [
+            {"name": "신상열","email": ""},
+            {"name": "김선태","email": ""}
+        ],
+        "의학과": [
+            {"name": "이창훈","email": ""},
+            {"name": "강동백","email": ""},
+            {"name": "강홍제","email": ""},
+            {"name": "고점석","email": ""},
+            {"name": "권석현","email": ""},
+            {"name": "권정남","email": ""},
+            {"name": "김남호","email": ""},
+            {"name": "김대원","email": ""},
+            {"name": "김대응","email": ""},
+            {"name": "김병륜","email": ""},
+            {"name": "김상덕","email": ""},
+            {"name": "김연동","email": ""},
+            {"name": "김유미","email": ""},
+            {"name": "김재현","email": ""},
+            {"name": "김정우","email": ""},
+            {"name": "김태균","email": ""},
+            {"name": "김태현","email": ""},
+            {"name": "김학렬","email": ""},
+            {"name": "김혜원","email": ""},
+            {"name": "나영천","email": ""},
+            {"name": "노지영","email": ""},
+            {"name": "류대웅","email": ""},
+            {"name": "류한승","email": ""},
+            {"name": "문성근","email": ""},
+            {"name": "문성록","email": ""},
+            {"name": "박건","email": ""},
+            {"name": "박도심","email": ""},
+            {"name": "박동은","email": ""},
+            {"name": "박무림","email": ""},
+            {"name": "박성남","email": ""},
+            {"name": "박순아","email": ""},
+            {"name": "박승철","email": ""},
+            {"name": "박원철","email": ""},
+            {"name": "박종태","email": ""},
+            {"name": "박현영","email": ""},
+            {"name": "서검석","email": ""},
+            {"name": "서일영","email": ""},
+            {"name": "석승한","email": ""},
+            {"name": "손영우","email": ""},
+            {"name": "손일홍","email": ""},
+            {"name": "신새론","email": ""},
+            {"name": "양세훈","email": ""},
+            {"name": "엄기성","email": ""},
+            {"name": "오성균","email": ""},
+            {"name": "위대한","email": ""},
+            {"name": "유승택","email": ""},
+            {"name": "윤경호","email": ""},
+            {"name": "윤귀현","email": ""},
+            {"name": "이강규","email": ""},
+            {"name": "이명수","email": ""},
+            {"name": "이상열","email": ""},
+            {"name": "이상재","email": ""},
+            {"name": "이석윤","email": ""},
+            {"name": "이영환","email": ""},
+            {"name": "이은미","email": ""},
+            {"name": "이재규","email": ""},
+            {"name": "이재훈","email": ""},
+            {"name": "이종화","email": ""},
+            {"name": "이창우","email": ""},
+            {"name": "이철","email": ""},
+            {"name": "이학승","email": ""},
+            {"name": "장혁","email": ""},
+            {"name": "전세정","email": ""},
+            {"name": "정선관","email": ""},
+            {"name": "정재윤","email": ""},
+            {"name": "정희종","email": ""},
+            {"name": "조광호","email": ""},
+            {"name": "조은영","email": ""},
+            {"name": "조지현","email": ""},
+            {"name": "조해중","email": ""},
+            {"name": "주민철","email": ""},
+            {"name": "최덕화","email": ""},
+            {"name": "최두영","email": ""},
+            {"name": "최석채","email": ""},
+            {"name": "최시성","email": ""},
+            {"name": "최운정","email": ""},
+            {"name": "최유선","email": ""},
+            {"name": "하대호","email": ""},
+            {"name": "한아름","email": ""},
+            {"name": "김근영","email": ""},
+            {"name": "김명현","email": ""},
+            {"name": "김유리","email": ""},
+            {"name": "김지희","email": ""},
+            {"name": "양찬모","email": ""},
+            {"name": "오태훈","email": ""},
+            {"name": "원태완","email": ""},
+            {"name": "유태양","email": ""},
+            {"name": "이상학","email": ""},
+            {"name": "이성현","email": ""},
+            {"name": "이주현","email": ""},
+            {"name": "전형구","email": ""},
+            {"name": "전종환","email": ""},
+            {"name": "정주용","email": ""},
+            {"name": "정진성","email": ""},
+            {"name": "조재영","email": ""},
+            {"name": "최정우","email": ""},
+            {"name": "한선정","email": ""},
+            {"name": "황기은","email": ""},
+            {"name": "황용","email": ""},
+            {"name": "김선태","email": ""},
+            {"name": "김승희","email": ""},
+            {"name": "김영서","email": ""},
+            {"name": "김영준","email": ""},
+            {"name": "백종석","email": ""},
+            {"name": "서유빈","email": ""},
+            {"name": "소철환","email": ""},
+            {"name": "안소라","email": ""},
+            {"name": "염동한","email": ""},
+            {"name": "윤성훈","email": ""},
+            {"name": "이승신","email": ""},
+            {"name": "이은선","email": ""},
+            {"name": "이진","email": ""},
+            {"name": "이철형","email": ""},
+            {"name": "이현승","email": ""},
+            {"name": "정유리","email": ""},
+            {"name": "정종혁","email": ""},
+            {"name": "정형기","email": ""},
+            {"name": "허준호","email": ""},
+            {"name": "김용성","email": ""},
+            {"name": "오재현","email": ""},
+            {"name": "이영진","email": ""},
+            {"name": "황규식","email": ""},
+            {"name": "김헌수","email": ""}
+        ],
+        "간호학과": [
+            {"name": "박민희","email": ""},
+            {"name": "강지숙","email": ""},
+            {"name": "고유경","email": ""},
+            {"name": "송은주","email": ""},
+            {"name": "양야기","email": ""},
+            {"name": "조해련","email": ""},
+            {"name": "황은희","email": ""},
+            {"name": "민들레","email": ""},
+            {"name": "박윤희","email": ""},
+            {"name": "안신애","email": ""},
+            {"name": "원미화","email": ""},
+            {"name": "정수경","email": ""},
+            {"name": "정은영","email": ""},
+            {"name": "강소라","email": ""},
+            {"name": "고진경","email": ""},
+            {"name": "권진하","email": ""},
+            {"name": "김미연","email": ""},
+            {"name": "김영주","email": ""},
+            {"name": "김은숙","email": ""},
+            {"name": "박경애","email": ""},
+            {"name": "박근영","email": ""},
+            {"name": "신혜연","email": ""},
+            {"name": "오미화","email": ""},
+            {"name": "이정교","email": ""},
+            {"name": "이한나","email": ""},
+            {"name": "조은영","email": ""},
+            {"name": "최설희","email": ""}
+        ]
+    },
+    "사범대학": {
+        "국어교육과": [
+            {"name": "조현일","email": ""},
+            {"name": "김대희","email": ""},
+            {"name": "백채원","email": ""},
+            {"name": "최성은","email": ""},
+            {"name": "한옥경","email": ""}
+        ],
+       "일어교육과": [
+            {"name": "이향란","email": ""},
+            {"name": "도꼬로유미","email": ""},
+            {"name": "염미란","email": ""},
+            {"name": "원영상","email": ""},
+            {"name": "김민정","email": ""},
+            {"name": "이관열","email": ""}
+        ],
+       "영어교육과": [
+            {"name": "이혜진","email": ""},
+            {"name": "임윤경","email": ""},
+            {"name": "김선옥","email": ""},
+            {"name": "안영재","email": ""},
+            {"name": "정재금","email": ""},
+            {"name": "폴","email": ""}
+        ],
+        "한문교육과": [
+            {"name": "이군선","email": ""},
+            {"name": "김창호","email": ""},
+            {"name": "이의강","email": ""},
+            {"name": "최훈","email": ""}
+        ],
+        "교육학과": [
+            {"name": "이미종","email": ""},
+            {"name": "김경현","email": ""},
+            {"name": "문경숙","email": ""},
+            {"name": "이치형","email": ""},
+            {"name": "김동진","email": ""},
+            {"name": "문정호","email": ""},
+            {"name": "박혜신","email": ""},
+            {"name": "이연호","email": ""},
+            {"name": "주창훈","email": ""}
+        ],
+        "유아교육과": [
+            {"name": "강진주","email": ""},
+            {"name": "김영실","email": ""},
+            {"name": "백승선","email": ""},
+            {"name": "함은숙","email": ""},
+            {"name": "김수아","email": ""}
+        ],
+       "수학교육과": [
+            {"name": "김혜선","email": ""},
+            {"name": "김부미","email": ""},
+            {"name": "김인숙","email": ""},
+            {"name": "김주형","email": ""},
+            {"name": "김준희","email": ""},
+            {"name": "김나라","email": ""}
+        ],
+       "역사교육과": [
+            {"name": "고유경","email": ""},
+            {"name": "김석우","email": ""},
+            {"name": "김재명","email": ""},
+            {"name": "이다운","email": ""},
+            {"name": "신규수","email": ""},
+            {"name": "이동우","email": ""},
+            {"name": "김가람","email": ""}
+        ],
+       "가정교육과": [
+            {"name": "하상희","email": ""},
+            {"name": "박정아","email": ""},
+            {"name": "이은희","email": ""},
+            {"name": "최나영","email": ""},
+            {"name": "곽경숙","email": ""},
+            {"name": "박은숙","email": ""},
+            {"name": "박일록","email": ""},
+            {"name": "전재윤","email": ""},
+            {"name": "전은례","email": ""}
+        ],
+       "중등특수교육과": [
+            {"name": "송광한","email": ""},
+            {"name": "정희섭","email": ""},
+            {"name": "박성지","email": ""},
+            {"name": "최세민","email": ""},
+            {"name": "김주선","email": ""},
+            {"name": "서문진","email": ""},
+            {"name": "이창훈","email": ""},
+            {"name": "고보형","email": ""},
+            {"name": "전유찬","email": ""}
+        ],
+        "체육교육과": [
+            {"name": "황정현","email": ""},
+            {"name": "서정석","email": ""},
+            {"name": "박병근","email": ""},
+            {"name": "서은철","email": ""},
+            {"name": "윤현수","email": ""},
+            {"name": "이해성","email": ""},
+            {"name": "신승일","email": ""}
+        ]
+    },
+    "약학대학": {
+        "약학과": [
+            {"name": "김동욱","email": ""},
+            {"name": "김성연","email": ""},
+            {"name": "김윤철","email": ""},
+            {"name": "김학성","email": ""},
+            {"name": "서정원","email": ""},
+            {"name": "송경","email": ""},
+            {"name": "안숙희","email": ""},
+            {"name": "오현철","email": ""},
+            {"name": "이성희","email": ""},
+            {"name": "이수진","email": ""}
+        ],
+        "한약학과": [
+            {"name": "기지예","email": ""},
+            {"name": "권동렬","email": ""},
+            {"name": "김윤경","email": ""},
+            {"name": "이영미","email": ""},
+            {"name": "정현주","email": ""},
+            {"name": "홍승헌","email": ""},
+            {"name": "강태진","email": ""},
+            {"name": "강신열","email": ""},
+            {"name": "강옥화","email": ""},
+            {"name": "고성금","email": ""},
+            {"name": "문정현","email": ""},
+            {"name": "서선용","email": ""},
+            {"name": "임승주","email": ""}
+        ]
+    },
+    "보건과학대학": {
+        "안전보건학과": [
+            {"name": "이정미","email": ""},
+            {"name": "오경재","email": ""},
+            {"name": "윤원섭","email": ""},
+            {"name": "조충현","email": ""},
+            {"name": "박지영","email": ""}
+        ],
+        "의료상담학과": [
+            {"name": "김영전","email": ""},
+            {"name": "강형원","email": ""},
+            {"name": "안소연","email": ""},
+            {"name": "임현대","email": ""},
+            {"name": "정문주","email": ""}
+        ],
+        "동물보건학과": [
+            {"name": "이미진","email": ""},
+            {"name": "김옥진","email": ""},
+            {"name": "유광수","email": ""}
+        ],
+        "반려동물산업학과": [
+            {"name": "강원국","email": ""},
+            {"name": "추영국","email": ""},
+            {"name": "김종걸","email": ""},
+            {"name": "이현아","email": ""},
+            {"name": "민자욱","email": ""},
+            {"name": "윤현상","email": ""}
+        ],
+        "스포츠과학부": [
+            {"name": "김동문","email": ""},
+            {"name": "김종식","email": ""},
+            {"name": "문개성","email": ""},
+            {"name": "송제호","email": ""},
+            {"name": "김부찬","email": ""},
+            {"name": "이정윤","email": ""},
+            {"name": "이채산","email": ""},
+            {"name": "백재근","email": ""},
+            {"name": "이재보","email": ""},
+            {"name": "김성훈","email": ""},
+            {"name": "김정신","email": ""},
+            {"name": "유웅서","email": ""},
+            {"name": "이동욱","email": ""},
+            {"name": "이혜진","email": ""},
+            {"name": "채부자","email": ""},
+            {"name": "최동길","email": ""}
+        ],
+        "뷰티디자인학부": [
+            {"name": "장지연","email": ""},
+            {"name": "김정희","email": ""},
+            {"name": "박정연","email": ""},
+            {"name": "김민정","email": ""},
+            {"name": "안은주","email": ""},
+            {"name": "이보림","email": ""}
+        ]
+    },
+    "생명자원과학대학": {
+        "원예산업학과": [
+            {"name": "김호철","email": ""},
+            {"name": "구양규","email": ""},
+            {"name": "김태춘","email": ""},
+            {"name": "배종향","email": ""},
+            {"name": "김철민","email": ""},
+            {"name": "박영상","email": ""},
+            {"name": "김현주","email": ""},
+            {"name": "홍경환","email": ""}
+        ],
+        "산림조경학과": [
+            {"name": "조장환","email": ""},
+            {"name": "김상욱","email": ""},
+            {"name": "안병철","email": ""},
+            {"name": "송소현","email": ""},
+            {"name": "이동규","email": ""},
+            {"name": "황인욱","email": ""}
+        ],
+        "생명환경학과": [
+            {"name": "최훈","email": ""},
+            {"name": "윤석인","email": ""},
+            {"name": "이상욱","email": ""},
+            {"name": "임종옥","email": ""}
+        ],
+        "식품생명공학과": [
+            {"name": "조인희","email": ""},
+            {"name": "이창주","email": ""},
+            {"name": "최준호","email": ""},
+            {"name": "박경민","email": ""}
+        ]
+    },
+    "인문대학": {
+        "국어국문학과": [
+            {"name": "최경봉","email": ""},
+            {"name": "김재용","email": ""},
+            {"name": "박경주","email": ""},
+            {"name": "임석규","email": ""}
+        ],
+        "문예창작학과": [
+            {"name": "이주라","email": ""},
+            {"name": "강연호","email": ""},
+            {"name": "김정배","email": ""}
+        ],
+        "영어영문학과": [
+            {"name": "황보경","email": ""},
+            {"name": "박하정","email": ""},
+            {"name": "손영미","email": ""}
+        ],
+        "중국학과": [
+            {"name": "박원기","email": ""},
+            {"name": "강찬수","email": ""},
+            {"name": "장연","email": ""}
+        ],
+        "역사문화학과": [
+            {"name": "김대보","email": ""},
+            {"name": "유지원","email": ""},
+            {"name": "이남희","email": ""},
+            {"name": "김주용","email": ""},
+            {"name": "유미나","email": ""},
+            {"name": "정성미","email": ""}
+        ]
+    },
+    "조형예술디자인대학": {
+        "미술과": [
+            {"name": "황나영","email": ""},
+            {"name": "이강원","email": ""},
+            {"name": "조은영","email": ""},
+            {"name": "이용석","email": ""},
+            {"name": "이화준","email": ""},
+            {"name": "조민지","email": ""}
+        ],
+        "패션디자인산업학과": [
+            {"name": "최정","email": ""},
+            {"name": "김선아","email": ""},
+            {"name": "이진희","email": ""},
+            {"name": "윤진영","email": ""},
+            {"name": "송아라","email": ""},
+            {"name": "황지현","email": ""}
+        ],
+        "시각정보 디자인학과": [
+            {"name": "김인수","email": ""},
+            {"name": "최경석","email": ""},
+            {"name": "최제호","email": ""},
+            {"name": "고광연","email": ""},
+            {"name": "김형근","email": ""},
+            {"name": "이지양","email": ""},
+            {"name": "전지혜","email": ""},
+            {"name": "한동균","email": ""}
+        ],
+        "실내산업 디자인학과": [
+            {"name": "안현정","email": ""},
+            {"name": "박정주","email": ""},
+            {"name": "김진식","email": ""},
+            {"name": "이지은","email": ""}
+        ],
+        "금속 주얼리 디자인학과": [
+            {"name": "이숙현","email": ""},
+            {"name": "박은선","email": ""},
+            {"name": "이재훈","email": ""}
+        ]
+    },
+    "사회과학대학": {
+        "복지ㆍ보건학부": [
+            {"name": "윤난희","email": ""},
+            {"name": "김흥주","email": ""},
+            {"name": "오세영","email": ""},
+            {"name": "윤치근","email": ""},
+            {"name": "조인주","email": ""},
+            {"name": "박은아","email": ""},
+            {"name": "황종남","email": ""},
+            {"name": "임주원","email": ""}
+        ],
+        "행정언론학부": [
+            {"name": "박민정","email": ""},
+            {"name": "김선남","email": ""},
+            {"name": "김요한","email": ""},
+            {"name": "이만제","email": ""},
+            {"name": "이동기","email": ""},
+            {"name": "임홍래","email": ""},
+            {"name": "김주","email": ""},
+            {"name": "임성실","email": ""}
+        ],
+        "소방행정학과": [
+            {"name": "양기근","email": ""},
+            {"name": "김형두","email": ""},
+            {"name": "이종호","email": ""},
+            {"name": "조성","email": ""},
+            {"name": "권혁","email": ""},
+            {"name": "이선재","email": ""}
+        ],
+        "군사학과": [
+            {"name": "김상옥","email": ""},
+            {"name": "김영성","email": ""},
+            {"name": "정재학","email": ""},
+            {"name": "정진섭","email": ""},
+            {"name": "한상용","email": ""}
+        ],
+        "가족아동복지학과": [
+            {"name": "최인숙","email": ""},
+            {"name": "김정훈","email": ""},
+            {"name": "최혜선","email": ""},
+            {"name": "이숙민","email": ""}
+        ],
+        "경찰행정학과": [
+            {"name": "이동원","email": ""},
+            {"name": "한상암","email": ""},
+            {"name": "류동훈","email": ""},
+            {"name": "이명우","email": ""},
+            {"name": "남반석","email": ""},
+            {"name": "양양규","email": ""}
+        ]
+    }
+}

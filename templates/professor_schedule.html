@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ department }} 교수님 목록</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            padding-top: 5vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .search-bar {
+            margin-bottom: 15px;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .professor-list {
+            max-height: 400px;
+            overflow-y: auto;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .list-group-item {
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.5rem;
+            background: #007bff;
+            border-radius: 4px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .list-group-item a {
+            color: white; /* 교수 이름 하얀색 */
+            text-decoration: none; /* 밑줄 제거 */
+            font-weight: bold; /* 강조 */
+        }
+        .list-group-item:hover {
+            background: #0056b3;
+        }
+        .list-group-item:hover a {
+            color: #f8f9fa; /* 호버 시 교수 이름 색상 약간 밝게 */
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-3">{{ department }} 교수님 목록</h1>
+
+        <!-- 검색 기능 -->
+        <input type="text" id="searchInput" class="form-control search-bar" placeholder="교수님 검색...">
+
+        <ul id="professorList" class="list-group professor-list">
+            {% for professor in professors %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('professor_schedule', building_name=building_name, professor_name=professor.name) }}">
+                        {{ professor.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <!-- 뒤로 가기 링크 -->
+        <a href="javascript:history.back()" class="back-link">뒤로 가기</a>
+    </div>
+
+    <script>
+        // 검색 기능 스크립트
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            let filter = this.value.toLowerCase();
+            let items = document.querySelectorAll('#professorList .list-group-item');
+            items.forEach(item => {
+                let text = item.textContent.toLowerCase();
+                item.style.display = text.includes(filter) ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>

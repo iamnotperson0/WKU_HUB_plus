@@ -1,0 +1,463 @@
+ [
+    {
+        "id": 1,
+        "name": "한의과대학",
+        "lat": 35.964931,
+        "lng": 126.958611,
+        "image": "oriental_medicine_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "한의예과", "image": "department_of_oriental_medicine.jpg"},
+            {"name": "한의학과", "image": "department_of_oriental_medicine1.jpg"}
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "의과대학",
+        "lat": 35.965730,
+        "lng": 126.959219,
+        "image": "medical_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "응급구조학과", "image": "department_of_emergency_structures.png"},
+            {"name": "의학과", "image": "department_of_medicine.png"},
+            {"name": "작업치료학과", "image": "department_of_occupational_therapy.png"},
+            {"name": "간호학과", "image": "department_of_nursing_science.png"}
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "간호학과",
+        "lat": 35.966732,
+        "lng": 126.961178,
+        "image": "nursing_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "사범대학",
+        "lat": 35.967325,
+        "lng": 126.960874,
+        "image": "education_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "국어교육과", "image": "department_of_korean_language_education.png"},
+            {"name": "일어교육과", "image": "department_of_japanese_education.jpg"},
+            {"name": "영어교육과", "image": "department_of_english_education.png"},
+            {"name": "한문교육과", "image": "department_of_sino_korean_education.png"},
+	        {"name": "교육학과", "image": "department_of_education.png"},
+            {"name": "유아교육과", "image": "early_childhood_education.jpg"},
+            {"name": "수학교육과", "image": "department_of_mathematics_education.jpg"},
+            {"name": "역사교육과", "image": "department_of_history_education.png"},
+	        {"name": "가정교육과", "image": "department_of_home_education.png"},
+            {"name": "중등특수교육과", "image": "secondary_speacial_education_division.jpg"},
+	        {"name": "체육교육과", "image": "physucal_education_department.png"}
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "약학대학",
+        "lat": 35.966953,
+        "lng": 126.959598,
+        "image": "pharmacy_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "약학과", "image": "department_of_pharmaceutical_sciences.png"},
+            {"name": "한약학과", "image": "department_of_oriental_medicine2.png"}
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "보건과학대학",
+        "lat": 35.967950,
+        "lng": 126.959240,
+        "image": "health_science_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "안전보건학과", "image": "department_of_health_safety.png"},
+            {"name": "의료상담학과", "image": "department_of_medical_consultation.png"},
+            {"name": "동물보건학과", "image": "department_of_animal_health.png"},
+            {"name": "반려동물산업학과", "image": "department_of_pet_industry.png"},
+            {"name": "스포츠과학부", "image": "department_of_sports_science.png"},
+            {"name": "뷰티디자인학부", "image": "department_of_beauty_design.png"}
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "생명자원과학대학",
+        "lat": 35.968972,
+        "lng": 126.960821,
+        "image": "bio_resource_sience_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "원예산업학과", "image": "department_of_horticulture_industry.png"},
+            {"name": "산림조경학과", "image": "department_of_forestry_landscape_architecture.png"},
+            {"name": "생명환경학과", "image": "department_of_biological_environment.png"},
+            {"name": "식품생명공학과", "image": "department_of_food_biotechnology.png"}
+        ]
+    },
+
+    {
+        "id": 8,
+        "name": "승리관",
+        "lat": 35.971316,
+        "lng": 126.960787,
+        "image": "victory_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 9,
+        "name": "조소관",
+        "lat": 35.971541,
+        "lng": 126.959840,
+        "image": "sculpture_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 10,
+        "name": "도예관",
+        "lat": 35.971929,
+        "lng": 126.959686,
+        "image": "ceramics_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 11,
+        "name": "학군관",
+        "lat": 35.971953,
+        "lng": 126.958811,
+        "image": "rotc_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 12,
+        "name": "인문대학",
+        "lat": 35.971269,
+        "lng": 126.958705,
+        "image": "humanities_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "국어국문학과", "image": "department_of_korean_language_literature.png"},
+            {"name": "문예창작학과", "image": "department_of_creative_writing.png"},
+            {"name": "영어영문학과", "image": "department_of_english_language_literature.png"},
+	        {"name": "중국학과", "image": "department_of_sinology.png"},
+            {"name": "역사문화학과", "image": "department_of_history_culture.png"}
+        ]
+    },
+
+    {
+        "id": 13,
+        "name": "새천년관",
+        "lat": 35.970586,
+        "lng": 126.958664,
+        "image": "new_millennium_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 14,
+        "name": "창의공과대학",
+        "lat": 35.968097,
+        "lng": 126.958106,
+        "image": "innovative_engineering_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "전기공학과", "image": "department_of_electrical_engineering.png"},
+            {"name": "전자공학과", "image": "department_of_electronic_engineering.png"},
+            {"name": "정보통신학과", "image": "department_of_information_communication.png"},
+            {"name": "건축학과", "image": "department_of_construction_engineering.png"},
+	        {"name": "건축공학과", "image": "department_of_architectural_engineering.png"},
+            {"name": "도시공학과", "image": "department_of_urban_engineering.png"},
+            {"name": "건설환경공학과", "image": "department_of_construction_environmental_engineering.png"}
+        ]
+    },
+
+   {
+       "id": 15,
+       "name": "프라임관",
+       "lat": 35.968483,
+       "lng": 126.957988,
+       "image": "prime_hall.jpeg",
+       "image_folder": "image",
+       "departments": [
+            {"name": "컴퓨터 소프트웨어공학과", "image": "department_of_sw_computer.PNG"},
+            {"name": "게임 콘텐츠 공학과", "image": "department_of_game_content.jpg"},
+            {"name": "식품영양학과", "image": "department_of_food_nutrition.jpg"},
+            {"name": "화학공학과", "image": "department_of_chemical_engineering.jpg"}
+        ]
+   },
+
+    {
+        "id": 16,
+        "name": "문화체육관",
+        "lat": 35.965264,
+        "lng": 126.957329,
+        "image": "cultural_sports_hall.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 17,
+        "name": "박물관",
+        "lat": 35.966257,
+        "lng": 126.956649,
+        "image": "wku_museum.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 18,
+        "name": "조형예술디자인대학",
+        "lat": 35.970374,
+        "lng": 126.957348,
+        "image": "visual_arts_design_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "미술과", "image": "art_department.png"},
+            {"name": "시각정보 디자인학과", "image": "department_of_visual_information_design.png"},
+            {"name": "실내산업 디자인학과", "image": "department_of_interior_information_design.png"},
+            {"name": "금속 주얼리 디자인학과", "image": "department_of_metal_jewelry_design.png"},
+            {"name": "패션디자인산업학과", "image": "department_of_fashion_design_industry.png"}
+        ]
+    },
+
+    {
+        "id": 19,
+        "name": "사회과학대학",
+        "lat": 35.971399,
+        "lng": 126.957000,
+        "image": "social_sciences_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "복지ㆍ보건학부", "image": "department_of_health_welfare.png"},
+            {"name": "행정언론학부", "image": "department_of_public_administration_journalism.png"},
+            {"name": "소방행정학과", "image": "department_of_fire_public_administration.png"},
+            {"name": "군사학과", "image": "department_of_millitary_studies.png"},
+            {"name": "가족아동복지학과", "image": "department_of_family_and_child_welfare.png"},
+            {"name": "경찰행정학과", "image": "department_of_police_public_adminstration.png"}
+        ]
+    },
+
+    {
+        "id": 20,
+        "name": "원광대 디지털대학",
+        "lat": 35.971177,
+        "lng": 126.956061,
+        "image": "wku_digital_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 21,
+        "name": "원광 보건대학교 본관",
+        "lat": 35.970960,
+        "lng": 126.954095,
+        "image": "main_building_health_science_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 22,
+        "name": "원광보건대학교 학림관",
+        "lat": 35.972726,
+        "lng": 126.956189,
+        "image": "haklim_hall_health_science_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 23,
+        "name": "원광 보건대학교 예능관",
+        "lat": 35.972291,
+        "lng": 126.956391,
+        "image": "art_hall_health_science_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 24,
+        "name": "원광 보건대학교 멀티미디어센터",
+        "lat": 35.972408,
+        "lng": 126.954448,
+        "image": "multimedia_center_health_science_univ.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 25,
+        "name": "원광대학교 중앙도서관",
+        "lat": 35.970278,
+        "lng": 126.955367,
+        "image": "center_library.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 26,
+        "name": "원광대학교 학생지원관",
+        "lat": 35.969650,
+        "lng": 126.954592,
+        "image": "student_service_center.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 27,
+        "name": "원광대학본부",
+        "lat": 35.969035,
+        "lng": 126.953710,
+        "image": "wku_univ_headquarters.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 28,
+        "name": "원광대학교 원체육관",
+        "lat": 35.968248,
+        "lng": 126.954921,
+        "image": "won_gymnasium.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 29,
+        "name": "학생회관",
+        "lat": 35.967919,
+        "lng": 126.956016,
+        "image": "student_union.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    },
+
+    {
+        "id": 30,
+        "name": "(구)생활과학대학",
+        "lat": 35.970156,
+        "lng": 126.953937,
+        "image": "former_human_ecology_college.jpeg",
+        "image_folder": "image",
+        "departments": [
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"},
+            {"name": "과", "image": ".jpeg"}
+        ]
+    }
+]

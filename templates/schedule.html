@@ -1,0 +1,122 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="ko">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>강의실 시간표</title>-->
+<!--    <style>-->
+<!--        /* 스타일 정의 (생략 가능) */-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container">-->
+<!--        <h1>1E 시간표</h1>-->
+<!--        <table class="timetable">-->
+<!--            <thead>-->
+<!--                <tr>-->
+<!--                    <th>시간 / 요일</th>-->
+<!--                    <th>월</th>-->
+<!--                    <th>화</th>-->
+<!--                    <th>수</th>-->
+<!--                    <th>목</th>-->
+<!--                    <th>금</th>-->
+<!--                </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--                {% for hour in range(9, 20) %}-->
+<!--                <tr>-->
+<!--                    <td class="time-column">{{ hour }}:00</td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                </tr>-->
+<!--                {% endfor %}-->
+<!--            </tbody>-->
+<!--        </table>-->
+<!--        <a href="/" class="back-link">서비스 페이지로 돌아가기</a>-->
+<!--    </div>-->
+
+<!--    <script>-->
+<!--        document.addEventListener('DOMContentLoaded', () => {-->
+<!--            const reservations = [-->
+<!--                { day: "월", hour: "10:00" },-->
+<!--                { day: "화", hour: "11:00" },-->
+<!--                // 더 많은 예약 추가-->
+<!--            ];-->
+
+<!--            addReservations(reservations);-->
+<!--            addSlotClickListeners();-->
+<!--        });-->
+
+<!--        function addReservations(reservations) {-->
+<!--            const days = ["월", "화", "수", "목", "금"];-->
+
+<!--            reservations.forEach(reservation => {-->
+<!--                const rowIndex = parseInt(reservation.hour.split(':')[0], 10) - 9;-->
+<!--                const colIndex = days.indexOf(reservation.day) + 1;-->
+
+<!--                if (rowIndex >= 0 && rowIndex < 11 && colIndex > 0 && colIndex <= 5) {-->
+<!--                    const cell = document.querySelector(`.timetable tbody tr:nth-child(${rowIndex + 1}) td:nth-child(${colIndex + 1})`);-->
+<!--                    cell.textContent = "예약";-->
+<!--                    cell.classList.add('reserved');-->
+<!--                    cell.style.color = 'white';-->
+<!--                    cell.style.backgroundColor = '#007bff';-->
+<!--                }-->
+<!--            });-->
+<!--        }-->
+
+<!--        function addSlotClickListeners() {-->
+<!--            const rows = document.querySelectorAll('.timetable tbody tr');-->
+
+<!--            rows.forEach((row, rowIndex) => {-->
+<!--                for (let colIndex = 1; colIndex <= 5; colIndex++) {-->
+<!--                    const cell = row.children[colIndex];-->
+
+<!--                    if (!cell.classList.contains('reserved')) {-->
+<!--                        cell.addEventListener('click', () => {-->
+<!--                            reserveSlot(rowIndex + 9, colIndex);-->
+<!--                        });-->
+<!--                    }-->
+<!--                }-->
+<!--            });-->
+<!--        }-->
+
+<!--        async function reserveSlot(hour, dayIndex) {-->
+<!--            const days = ["월", "화", "수", "목", "금"];-->
+<!--            const day = days[dayIndex - 1];-->
+<!--            const data = {-->
+<!--                room: "1E",-->
+<!--                day: day,-->
+<!--                hour: `${hour}:00`-->
+<!--            };-->
+
+<!--            try {-->
+<!--                const response = await fetch('/reserve', {-->
+<!--                    method: 'POST',-->
+<!--                    headers: {-->
+<!--                        'Content-Type': 'application/json'-->
+<!--                    },-->
+<!--                    body: JSON.stringify(data)-->
+<!--                });-->
+<!--                const result = await response.json();-->
+
+<!--                if (result.success) {-->
+<!--                    alert('예약이 완료되었습니다!');-->
+<!--                    const cell = document.querySelector(`.timetable tbody tr:nth-child(${hour - 8}) td:nth-child(${dayIndex + 1})`);-->
+<!--                    cell.textContent = '예약';-->
+<!--                    cell.classList.add('reserved');-->
+<!--                    cell.style.color = 'white';-->
+<!--                    cell.style.backgroundColor = '#007bff';-->
+<!--                } else {-->
+<!--                    alert('이미 예약된 시간입니다.');-->
+<!--                }-->
+<!--            } catch (error) {-->
+<!--                console.error('예약 중 오류가 발생했습니다:', error);-->
+<!--                alert('예약 중 오류가 발생했습니다.');-->
+<!--            }-->
+<!--        }-->
+<!--    </script>-->
+<!--</body>-->
+<!--</html>-->

@@ -1,0 +1,8 @@
+local pc powershell -> GCP cmd ->
+scp -i "C:\Users\jdah5454\.ssh\new_gcp_key" "C:\Users\jdah5454\PycharmProjects\software_engineering_team_projects\templates\index.html" unj2643@34.64.221.18:/var/www/html/index.html
+
+배포된 사이트: https://www.wku-hub.com/
+
+네이버 주소 설정: https://console.ncloud.com/naver-service/application
+    ID: unj2643@gmail.com
+    PSWD: d5125351253!

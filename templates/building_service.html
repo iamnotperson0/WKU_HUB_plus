@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ building.name }} 서비스</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="service-content">
+        <h1>{{ building.name }} 서비스</h1>
+        <div class="department-section">
+            {% for department in departments %}
+            <div class="department-card">
+                <a href="/building/{{ building.name }}/service/{{ department.name }}" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%;">
+                    {% if department.image and department.image != '.jpeg' %}
+                    <div class="image-container">
+                        <!-- 전공 이미지는 'major_image' 폴더에서 불러옵니다 -->
+                        <img src="{{ url_for('static', filename='major_image/' + department.image) }}" alt="{{ department.name }} 이미지" draggable="false">
+                    </div>
+                    {% else %}
+                    <div class="image-container">
+                        <!-- 기본 이미지 또는 플레이스홀더 이미지 사용 -->
+                        <img src="{{ url_for('static', filename='images/default_department.png') }}" alt="기본 이미지" draggable="false">
+                    </div>
+                    {% endif %}
+                    <h2>{{ department.name }}</h2>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="/">뒤로 가기</a>
+    </div>
+</body>
+</html>

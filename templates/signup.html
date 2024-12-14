@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            background-color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signup-container {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.8rem;
+            color: #333;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 1.1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #aaa;
+        }
+
+        .file-input-container {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-input-button {
+            background-color: #f8f9fa;
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            padding: 1rem;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-input-button:hover {
+            background-color: #e9ecef;
+        }
+
+        #pdf {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 1rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .btn-submit:hover {
+            background-color: #2980b9;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .login-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 0.5rem;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .spinner {
+            border: 12px solid #f3f3f3;
+            border-top: 12px solid #3498db;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 프로그레스 바 스타일 */
+        .progress-container {
+            display: none;
+            margin-top: 10px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: 2px;
+            position: relative;
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: #3498db;
+            border-radius: 4px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+            font-size: 12px;
+        }
+
+        /* 모바일 반응형 */
+        @media (max-width: 600px) {
+            .signup-container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            input {
+                font-size: 1rem;
+                padding: 0.8rem;
+            }
+
+            .btn-submit {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>회원가입</h2>
+
+        <div id="loading-overlay">
+            <div class="spinner"></div>
+        </div>
+
+        <form method="post" action="/signup" id="signup-form" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="email">아이디 (이메일)</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="wonkwang@email.com"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="password">비밀번호</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="비밀번호를 입력하세요"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="pdf">PDF 첨부</label>
+                <div class="file-input-container">
+                    <label class="file-input-button" for="pdf">
+                        PDF 파일을 선택하세요
+                    </label>
+                    <input
+                        type="file"
+                        id="pdf"
+                        name="pdf"
+                        accept="application/pdf"
+                        required
+                    >
+                    <div id="file-name"></div>
+                </div>
+                <div class="progress-container" id="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <div class="progress-text" id="progress-text">0%</div>
+                </div>
+            </div>
+            <button type="submit" class="btn-submit">회원가입</button>
+        </form>
+        <div class="login-link">
+            이미 계정이 있으신가요?<a href="{{ url_for('home') }}">로그인</a>
+        </div>
+    </div>
+
+    <script>
+        // PDF 파일 선택 시 프로그레스 바 표시
+        document.getElementById('pdf').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                // 파일 이름 표시
+                document.getElementById('file-name').textContent = file.name;
+
+                // 프로그레스 바 표시
+                const progressContainer = document.getElementById('progress-container');
+                const progressBar = document.getElementById('progress-bar');
+                const progressText = document.getElementById('progress-text');
+
+                progressContainer.style.display = 'block';
+
+                // 프로그레스 바 애니메이션
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += 5;
+                    if (progress > 100) {
+                        clearInterval(interval);
+                        // 완료 표시
+                        swal({
+                            title: "완료",
+                            text: "파일이 준비되었습니다.",
+                            icon: "success",
+                            button: "확인",
+                        });
+                    } else {
+                        progressBar.style.width = progress + '%';
+                        progressText.textContent = progress + '%';
+                    }
+                }, 100);
+            }
+        });
+
+        // 폼 제출 처리
+        document.getElementById('signup-form').addEventListener('submit', function(e) {
+            const pdfInput = document.getElementById('pdf');
+            const maxSize = 5 * 1024 * 1024; // 5MB
+
+            if (pdfInput.files[0] && pdfInput.files[0].size > maxSize) {
+                e.preventDefault();
+                swal({
+                    title: "경고",
+                    text: "PDF 파일 크기는 5MB를 초과할 수 없습니다.",
+                    icon: "warning",
+                    button: "확인",
+                });
+                return;
+            }
+
+            document.getElementById('loading-overlay').style.display = 'flex';
+        });
+
+        {% with messages = get_flashed_messages(with_categories=True) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    swal({
+                        title: "알림",
+                        text: "{{ message }}",
+                        icon: "{{ 'success' if category == 'success' else 'error' }}",
+                        button: "확인",
+                    });
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </script>
+</body>
+</html>
